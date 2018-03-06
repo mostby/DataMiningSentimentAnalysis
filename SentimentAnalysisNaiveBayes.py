@@ -7,6 +7,7 @@ import csv
 import nltk
 import re
 from nltk.corpus import stopwords
+wnlemmatizer = nltk.WordNetLemmatizer()
 
 all_words = []
 
@@ -31,7 +32,7 @@ def main():
     random.shuffle(train_data)
 
     all_words = nltk.FreqDist(all_words)
-    word_features = list(all_words.keys())[:int(len(all_words) * 0.50)]
+    word_features = list(all_words.keys())[:int(len(all_words) * 1)]
 
     # convert all reviews to feature sets
     print("Generating feature sets...")
