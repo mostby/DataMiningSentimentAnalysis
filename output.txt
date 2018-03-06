@@ -38,6 +38,7 @@ Process finished with exit code 0
 
 
 
+
 "C:\Users\Neil\Dropbox\School\EWU\Data Mining\Project\PyTest\venv\Scripts\python.exe" "C:/Users/Neil/Dropbox/School/EWU/Data Mining/Project/DataMiningSentimentAnalysis/SentimentAnalysisNaiveBayes.py" train_0-4.tsv test.tsv
 Reading in training data...
 Finished reading in data...
@@ -62,5 +63,34 @@ Most Informative Features
                  depress = True           Negati : Positi =     10.1 : 1.0
                    stale = True           Negati : Positi =      9.2 : 1.0
 Finished
+
+Process finished with exit code 0
+
+
+
+
+"C:\Users\Megan Ostby\Desktop\Data Mining\DataMiningSentimentAnalysis\venv\Scripts\python.exe" "C:/Users/Megan Ostby/Desktop/Data Mining/DataMiningSentimentAnalysis/SentimentAnalysisNaiveBayes.py"
+Reading in training data...
+Finished reading in data...
+Generating feature sets...
+Running naive bayes...
+70.6047819972%
+Most Informative Features
+                   waste = True           Negati : Positi =     25.4 : 1.0
+                  stupid = True           Negati : Positi =     17.9 : 1.0
+                 unfunny = True           Negati : Positi =     14.6 : 1.0
+                    ugly = True           Negati : Positi =     14.6 : 1.0
+                 generic = True           Negati : Positi =     13.5 : 1.0
+                     eye = True           Positi : Negati =     12.5 : 1.0
+                   stale = True           Negati : Positi =     11.4 : 1.0
+                  poorly = True           Negati : Positi =     11.4 : 1.0
+               beautiful = True           Positi : Negati =     11.3 : 1.0
+                     car = True           Negati : Positi =     10.3 : 1.0
+              amateurish = True           Negati : Positi =     10.3 : 1.0
+                 failure = True           Negati : Positi =      9.2 : 1.0
+                tiresome = True           Negati : Positi =      9.2 : 1.0
+                  insult = True           Negati : Positi =      9.2 : 1.0
+               offensive = True           Negati : Positi =      9.2 : 1.0
+Finished...
 
 Process finished with exit code 0
