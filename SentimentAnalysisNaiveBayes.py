@@ -51,7 +51,7 @@ def main():
     classifier = nltk.NaiveBayesClassifier.train(train_set)
     print((nltk.classify.accuracy(classifier, test_set)) * 100, "%", sep="")
 
-    #classifier.show_most_informative_features(15)
+    classifier.show_most_informative_features(15)
 
     print("Finished...")
 

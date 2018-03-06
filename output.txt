@@ -7,3 +7,29 @@ Running naive bayes...
 Finished...
 
 Process finished with exit code 0
+
+"C:\Users\Megan Ostby\Desktop\Data Mining\DataMiningSentimentAnalysis\venv\Scripts\python.exe" "C:/Users/Megan Ostby/Desktop/Data Mining/DataMiningSentimentAnalysis/SentimentAnalysisNaiveBayes.py"
+Reading in training data...
+Finished reading in data...
+Generating feature sets...
+Running naive bayes...
+70.1828410689%
+Most Informative Features
+             pretentious = True           Negati : Positi =     12.1 : 1.0
+                    hole = True           Negati : Positi =     11.1 : 1.0
+                  insult = True           Negati : Positi =     11.1 : 1.0
+               formulaic = True           Negati : Positi =     10.0 : 1.0
+                 engross = True           Positi : Negati =      9.1 : 1.0
+                    load = True           Negati : Positi =      8.9 : 1.0
+                    slip = True           Negati : Positi =      8.9 : 1.0
+                   waste = True           Negati : Positi =      8.3 : 1.0
+               wonderful = True           Positi : Negati =      7.8 : 1.0
+                   witty = True           Positi : Negati =      7.4 : 1.0
+                 generic = True           Negati : Positi =      7.3 : 1.0
+               offensive = True           Negati : Positi =      7.3 : 1.0
+                disguise = True           Negati : Positi =      7.3 : 1.0
+              delightful = True           Positi : Negati =      7.0 : 1.0
+               brilliant = True           Positi : Negati =      7.0 : 1.0
+Finished...
+
+Process finished with exit code 0
