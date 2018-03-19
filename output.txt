@@ -149,3 +149,62 @@ Most Informative Features
 Finished...
 
 Process finished with exit code 0
+
+
+
+"C:\Users\Megan Ostby\Desktop\Data Mining\DataMiningSentimentAnalysis\venv\Scripts\python.exe" "C:/Users/Megan Ostby/Desktop/Data Mining/DataMiningSentimentAnalysis/SentimentAnalysisNaiveBayes.py"
+Reading in training data...
+Preprocessing data...
+Finished reading in data...
+Generating feature sets...
+Running naive bayes...
+72.90201594%
+Most Informative Features
+                  stupid = True           Negati : Positi =     19.7 : 1.0
+                    flat = True           Negati : Positi =     13.8 : 1.0
+               pointless = True           Negati : Positi =     13.3 : 1.0
+                    chan = True           Negati : Positi =     13.3 : 1.0
+                     car = True           Negati : Positi =     12.3 : 1.0
+              amateurish = True           Negati : Positi =     12.3 : 1.0
+                  devoid = True           Negati : Positi =     11.2 : 1.0
+                  scream = True           Negati : Positi =     10.1 : 1.0
+              remarkable = True           Positi : Negati =      9.8 : 1.0
+               hilarious = True           Positi : Negati =      9.4 : 1.0
+                  length = True           Negati : Positi =      9.1 : 1.0
+                 suspect = True           Negati : Positi =      9.1 : 1.0
+                 shallow = True           Negati : Positi =      8.6 : 1.0
+                    ugly = True           Negati : Positi =      8.6 : 1.0
+           coming of age = True           Positi : Negati =      8.5 : 1.0
+Finished
+
+Process finished with exit code 0
+
+
+
+0-4
+"C:\Users\Megan Ostby\Desktop\Data Mining\DataMiningSentimentAnalysis\venv\Scripts\python.exe" "C:/Users/Megan Ostby/Desktop/Data Mining/DataMiningSentimentAnalysis/SentimentAnalysisNaiveBayes.py"
+Reading in training data...
+Preprocessing data...
+Finished reading in data...
+Generating feature sets...
+Running naive bayes...
+36.4744491327%
+Most Informative Features
+                    best = True                4 : 0      =     29.2 : 1.0
+                    mess = True                0 : 3      =     21.5 : 1.0
+                     bad = True                0 : 4      =     15.6 : 1.0
+                   worst = True                0 : 3      =     15.6 : 1.0
+                   heart = True                4 : 0      =     14.7 : 1.0
+             beautifully = True                4 : 1      =     13.6 : 1.0
+              thoughtful = True                4 : 1      =     13.4 : 1.0
+               wonderful = True                4 : 1      =     13.4 : 1.0
+                    miss = True                1 : 3      =     13.1 : 1.0
+                   awful = True                0 : 3      =     12.6 : 1.0
+                 depress = True                0 : 3      =     12.6 : 1.0
+                    flat = True                1 : 3      =     12.4 : 1.0
+                  deeply = True                4 : 1      =     12.2 : 1.0
+                gorgeous = True                4 : 1      =     12.2 : 1.0
+                    dull = True                0 : 3      =     11.1 : 1.0
+Finished
+
+Process finished with exit code 0
