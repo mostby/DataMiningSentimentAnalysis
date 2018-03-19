@@ -1,13 +1,14 @@
 # Project - Sentiment Analysis
 # CSCD 429 Winter 2018
+# Megan Ostby, Athena Madison, Neil Brommer
 
 from __future__ import print_function
+import sys
 import random
 import csv
 import nltk
 import re
 from nltk.corpus import stopwords
-wnlemmatizer = nltk.WordNetLemmatizer()
 
 all_words = []
 
@@ -21,8 +22,14 @@ def main():
     global all_words
     global word_features
 
+    if len(sys.argv) < 2:
+        print("No data file specified")
+        sys.exit(-1)
+
+    train_path = sys.argv[1]
+
     print("Reading in training data...")
-    train_reader = data_reader()
+    train_reader = data_reader(train_path)
 
     print("Preprocessing data...")
     train_data = data_preprocessing(train_reader)
@@ -62,11 +69,10 @@ def find_features(doc):
     return features
 
 
-def data_reader():
+def data_reader(train_path):
     global phraseIndex
     global sentimentIndex
 
-    train_path = "train.csv"
     train_file = open(train_path, "r")  # docs use "rb", fails on Python 3.5+
     train_reader = csv.reader(train_file, delimiter=',')
     headers = next(train_reader)
